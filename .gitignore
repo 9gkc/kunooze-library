@@ -1,0 +1,6 @@
+# APK files are distributed exclusively as GitHub Release assets, never committed to Git.
+*.apk
+
+# Local verification and operating-system files.
+*.log
+.DS_Store
