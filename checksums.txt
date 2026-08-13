@@ -1,2 +1,2 @@
 # Kunooze Library Reader release checksums
-9331a872addf0dc6f2ed7f46b54caad4006461b59e4074a6d1b992fd6200679a  kunooze-library-reader-v1.2.0.apk
+25149dba1186c3d17dacd3961544eed47de15e07b6ba02447a83f51e8ac6fed6  kunooze-library-reader-v1.0.0.apk

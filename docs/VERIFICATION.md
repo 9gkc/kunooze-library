@@ -1,12 +1,12 @@
-# Release Verification — v1.2.0
+# Release Verification — v1.0.0
 
 | Field | Value |
 |---|---|
-| Artifact | `kunooze-library-reader-v1.2.0.apk` |
+| Artifact | `kunooze-library-reader-v1.0.0.apk` |
 | Application ID | `com.alkarara.kunooze.library_app` |
-| Version | `1.2.0` (version code `4`) |
-| Size | 54,227,413 bytes |
-| SHA-256 | `9331a872addf0dc6f2ed7f46b54caad4006461b59e4074a6d1b992fd6200679a` |
+| Version | `1.0.0` (version code `5`) |
+| Size | 53,772,581 bytes |
+| SHA-256 | `25149dba1186c3d17dacd3961544eed47de15e07b6ba02447a83f51e8ac6fed6` |
 | Signature | Android APK Signature Scheme v2 verified successfully |
 | Signing certificate SHA-1 | `C8:09:13:42:94:6A:64:28:06:BB:39:08:1E:77:B1:E5:25:9B:D3:10` |
 
