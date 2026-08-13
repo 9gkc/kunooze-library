@@ -1,29 +1,35 @@
-# دليل تثبيت مكتبة الكنوز للقارئ
+# Installation Guide
 
-هذا الدليل مخصص للطلاب. نزّل تطبيق **القارئ** فقط؛ تطبيق الناشر غير مخصص للطلاب ولا يجب تثبيته أو مشاركته.
+This guide is for students who want to install the **Kunooze Library** reader. Download and install the Reader APK only; the owner publishing application is not intended for student devices or public distribution.
 
-## خطوات التثبيت
+## Install Kunooze Library
 
-| الخطوة | ما يجب فعله |
+| Step | Action |
 |---|---|
-| 1 | نزّل ملف [Kunooze Library Reader v1.0.0](https://github.com/9gkc/kunooze-library-reader/releases/download/v1.0.0/kunooze-library-reader-v1.0.0.apk). |
-| 2 | إذا كان لديك الإصدار v1.2 السابق، ثبّت v1.0.0 فوقه مباشرة؛ رقم البناء الداخلي أعلى. أما إصدار v1.1 التاريخي فيجب إزالته أولاً لأنه موقّع بشهادة مختلفة. |
-| 3 | افتح ملف APK من التنزيلات واضغط **تثبيت**. إذا طلب Android الإذن، اسمح لمتصفحك أو مدير الملفات بتثبيت التطبيقات من هذا المصدر. |
-| 4 | افتح **مكتبة الكنوز** بعد اكتمال التثبيت. لا تحتاج إلى إنشاء حساب أو تسجيل دخول. |
-| 5 | من تبويب **المكتبة**، اختر المرحلة ثم الفصل ثم المقرر ثم المادة المنشورة. |
+| 1 | Download [Kunooze Library v1.0.0](https://github.com/9gkc/kunooze-library/releases/download/v1.0.0/kunooze-library-reader-v1.0.0.apk) from the official release. |
+| 2 | If your device has the preceding `v1.2` build, install `v1.0.0` over it. The internal version code is higher. |
+| 3 | If your device has the historically signed `v1.1` build, uninstall that older copy first because it used a different signing certificate. |
+| 4 | Open the downloaded APK and choose **Install**. If Android requests permission, allow the trusted browser or file manager to install apps from this source. [1] |
+| 5 | Open **Kunooze Library**. Students do not need to create an account or sign in. |
 
-## طريقة الاستخدام
+## Use the Reader
 
-ابدأ من الصفحة الرئيسية ثم اضغط **استكشف المواد**، أو افتح تبويب **المكتبة** مباشرة. ستظهر المراحل الأربعة، ثم الفصلان، والمقررات والمواد التي نشرها مالك المكتبة فقط. تعرض الصفحة الرئيسية الإعلانات أو عناصر الجدول المؤقتة المنشورة أثناء مدة ظهورها. الدروس النصية تُعرض داخل التطبيق، أما ملفات PDF فتُفتح من رابط Google Drive المعتمد.
+Start from the Home tab and select **Explore materials**, or open the Library tab directly. Choose a stage, then a semester, then a subject, and finally a published material. Text lessons are available in the app. Approved PDF resources open through their published Google Drive links.
 
-إذا لم تظهر مادة تتوقعها، فهذا يعني أنها لم تُنشر بعد أو أن اتصال الإنترنت غير متاح. لا يحتاج الطالب إلى القيام بأي إعداد في Firebase أو Google Drive.
+The Home tab can display owner-published announcements or temporary timetable entries while they are active. If a material is not visible, it has not been published yet or the device is offline. Students do not need to configure Firebase or Google Drive.
 
-## التحقق من الملف
+## Verify the Download
 
-بعد تنزيل الملف، يمكن للطالب المتقدم تقنياً مقارنة SHA-256 بالقيمة التالية:
+Students who want to verify the file can compare the downloaded APK checksum with the following SHA-256 value:
 
 ```text
 25149dba1186c3d17dacd3961544eed47de15e07b6ba02447a83f51e8ac6fed6
 ```
 
-الملف موقّع وفق Android APK Signature Scheme v2. لمزيد من المعلومات عن تواقيع APK، راجع [توثيق Android الرسمي](https://source.android.com/docs/security/features/apksigning).
+The APK is signed with Android APK Signature Scheme v2. The complete package metadata and certificate fingerprint are listed in [VERIFICATION.md](VERIFICATION.md). Android explains the purpose of APK signing in its official documentation. [2]
+
+## References
+
+[1] [Android Help — Download and install Android apps](https://support.google.com/android/answer/9450271)
+
+[2] [Android Open Source Project — APK signing](https://source.android.com/docs/security/features/apksigning)

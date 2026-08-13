@@ -1,7 +1,18 @@
 # Public Distribution Scope
 
-This repository exists solely to make the signed **Kunooze Library Reader** APK easy for students to download and verify. The library owner controls academic material publication through a separate private publishing workflow.
+This repository is the official public download location for the **Kunooze Library** student reader. It exists to provide one trusted APK release, clear installation instructions, current interface screenshots, and verification information.
 
-The repository must never receive application source code, the owner publisher APK, Android signing material, `google-services.json`, Firebase credentials, private student records, or unpublished teaching resources. Release assets must contain only the reader APK and its public checksum.
+## Included Material
 
-Students may share the unmodified reader download link with classmates. They should obtain course content only through materials published by the library owner and respect the copyright and course policies applicable to each resource.
+| Included | Reason |
+|---|---|
+| Signed Reader APK | Students need a single official installation package. |
+| Release verification record | Students can identify and verify the published file. |
+| Installation documentation | Students can install or update the reader safely. |
+| Reader interface screenshots | Visitors can understand the reader experience before downloading. |
+
+## Excluded Material
+
+The public repository must never include application source code, the owner publisher APK, Android signing material, Firebase configuration files, credentials, student records, unpublished academic material, or private operational documentation.
+
+Students may share the official Reader APK link with classmates without modifying the package. Academic content should be used in accordance with applicable course rules and resource copyright policies.
