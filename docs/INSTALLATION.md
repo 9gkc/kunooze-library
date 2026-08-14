@@ -7,8 +7,8 @@ This guide is for students who want to install the **Kunooze Library** reader. D
 | Step | Action |
 |---|---|
 | 1 | Download [Kunooze Library v1.0.0](https://github.com/9gkc/kunooze-library/releases/download/v1.0.0/kunooze-library-reader-v1.0.0.apk) from the official release. |
-| 2 | If your device has the preceding `v1.2` build, install `v1.0.0` over it. The internal version code is higher. |
-| 3 | If your device has the historically signed `v1.1` build, uninstall that older copy first because it used a different signing certificate. |
+| 2 | Uninstall any previously installed Kunooze Library APK once. This transition build establishes a new permanent production signing identity. |
+| 3 | Install `v1.0.0` (version code `6`). Future official updates will install directly over this build. |
 | 4 | Open the downloaded APK and choose **Install**. If Android requests permission, allow the trusted browser or file manager to install apps from this source. [1] |
 | 5 | Open **Kunooze Library**. Students do not need to create an account or sign in. |
 
@@ -23,7 +23,7 @@ The Home tab can display owner-published announcements or temporary timetable en
 Students who want to verify the file can compare the downloaded APK checksum with the following SHA-256 value:
 
 ```text
-25149dba1186c3d17dacd3961544eed47de15e07b6ba02447a83f51e8ac6fed6
+8126da885f5ca759f9fcf4615f7036b5c6e6c1ff422cf2d11058d157ddff432f
 ```
 
 The APK is signed with Android APK Signature Scheme v2. The complete package metadata and certificate fingerprint are listed in [VERIFICATION.md](VERIFICATION.md). Android explains the purpose of APK signing in its official documentation. [2]

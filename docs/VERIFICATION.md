@@ -1,4 +1,4 @@
-# Release Verification — v1.0.0
+# Release Verification — v1.0.0 (Transition Build 6)
 
 Use this record to confirm that the downloaded file is the official public **Kunooze Library** Reader package.
 
@@ -6,10 +6,10 @@ Use this record to confirm that the downloaded file is the official public **Kun
 |---|---|
 | Artifact | `kunooze-library-reader-v1.0.0.apk` |
 | Application ID | `com.alkarara.kunooze.library_app` |
-| Version | `1.0.0` (version code `5`) |
-| Size | `53,772,581` bytes |
-| SHA-256 | `25149dba1186c3d17dacd3961544eed47de15e07b6ba02447a83f51e8ac6fed6` |
+| Version | `1.0.0` (version code `6`) |
+| Size | `53,789,025` bytes |
+| SHA-256 | `8126da885f5ca759f9fcf4615f7036b5c6e6c1ff422cf2d11058d157ddff432f` |
 | Signature | Android APK Signature Scheme v2, verified successfully |
-| Signing certificate SHA-1 | `C8:09:13:42:94:6A:64:28:06:BB:39:08:1E:77:B1:E5:25:9B:D3:10` |
+| Signing certificate SHA-1 | `93:32:D7:B4:F4:0C:DE:60:32:2B:DB:4F:C3:E0:C4:4A:69:A6:1A:C4` |
 
 The public release contains the student Reader APK only. It does not contain a publisher package, source code, signing key, Firebase configuration file, or owner credentials.

@@ -2,7 +2,7 @@
 
 > **The official Android reader for the Kunooze academic digital library.**
 
-Kunooze Library is an Arabic, right-to-left Android application for students who access published academic cybersecurity material. Its academic path is deliberately simple: **Stage → Semester → Subject → Learning Material**. Students can read text lessons in the application, open owner-approved PDF resources, view active announcements, and search the catalogue without creating an account.
+Kunooze Library is an Arabic, right-to-left Android application for students who access published academic cybersecurity material. Its academic path is deliberately simple: **Stage → Semester → Subject → Lecture**. Inside each subject, lectures are presented as a numbered sequence with clear previous and next navigation. Students can read text lessons in the application, open owner-approved PDF resources, view active announcements, and search the catalogue without creating an account.
 
 ## Official Download
 
@@ -16,7 +16,7 @@ Kunooze Library is an Arabic, right-to-left Android application for students who
 The official package is **`kunooze-library-reader-v1.0.0.apk`**. It is a signed production APK, not a debug or trial build. Its SHA-256 checksum is:
 
 ```text
-25149dba1186c3d17dacd3961544eed47de15e07b6ba02447a83f51e8ac6fed6
+8126da885f5ca759f9fcf4615f7036b5c6e6c1ff422cf2d11058d157ddff432f
 ```
 
 ## Student Experience
@@ -25,6 +25,7 @@ The official package is **`kunooze-library-reader-v1.0.0.apk`**. It is a signed 
 |---|---|
 | Arabic RTL interface | The reader is designed for Arabic right-to-left reading. |
 | Academic navigation | Browse four stages, their semesters, subjects, and published materials. |
+| Ordered lectures | Follow subject material as a numbered lecture sequence with previous and next controls. |
 | Text lessons | Read published text lessons inside the application. |
 | Approved PDF resources | Open library-owner-approved Google Drive PDF links. |
 | Active notices | View temporary announcements and timetable entries while they are active. |
@@ -45,7 +46,7 @@ The following authentic interface screenshots show the Arabic reader at a mobile
 
 Android may require the student to allow installation from the browser or file manager that downloaded the APK. This permission should be enabled only for the trusted application used to download the official package. [1]
 
-Version `1.0.0` uses the production signing certificate. It updates the preceding `v1.2` build normally because its Android version code is higher. A device that still holds the historically signed `v1.1` application must uninstall that older copy before installing this release. Removing the application does not delete library content, which is maintained remotely by the library owner.
+This `v1.0.0` transition build has Android version code `6` and establishes the permanent production signing identity used for future updates. **Because Android signing identity changed, every student must uninstall any earlier Kunooze Library APK once before installing this build.** This one-time transition is required by Android. After installing this build, future official updates signed with the same production identity will install directly over it. Removing the application does not delete library content, which is maintained remotely by the library owner.
 
 ## Public Distribution Scope
 
