@@ -8,16 +8,25 @@
 
 | Item | Link | Purpose |
 |---|---|---|
-| Latest Reader APK | [Download CyKun v1.0.2](https://github.com/9gkc/cykun/releases/download/v1.0.2/cykun-reader-v1.0.2.apk) | Install the signed student Reader. |
-| Release page | [Open the v1.0.2 CyKun release](https://github.com/9gkc/cykun/releases/tag/v1.0.2) | Review the release asset and notes. |
+| Latest Reader APK | [Download CyKun v1.0.0](https://github.com/9gkc/cykun/releases/download/v1.0.0/cykun-reader-v1.0.0.apk) | Install the signed student Reader. |
+| Release page | [Open the v1.0.0 CyKun release](https://github.com/9gkc/cykun/releases/tag/v1.0.0) | Review the release asset and notes. |
 | Installation guide | [Read the guide](docs/INSTALLATION.md) | Install or update safely on Android. |
 | Verification record | [Verify the download](docs/VERIFICATION.md) | Compare version, signature, size, and checksum. |
 
-The official package is **`cykun-reader-v1.0.2.apk`**. It is a signed production APK, not a debug or trial build.
+The official package is **`cykun-reader-v1.0.0.apk`**. It is a signed production APK, not a debug or trial build.
 
 ```text
-SHA-256: 7ab58ecf38522a52fa41301b10d8ec9328ae0fd08688d267a7cd23f421009495
+SHA-256: df24f9196e2b7c31f42b798ad44a8abf649ad3906a0b379035d600d29fcc0b87
 ```
+
+## Official community and developer
+
+CyKun includes an in-app **Community** space so students can reach the official project channels without relying on copied links.
+
+| Official presence | Link | Purpose |
+|---|---|---|
+| CyS4Ever community | [t.me/cys4ever](https://t.me/cys4ever) | Official Telegram channel for CyKun community updates and announcements. |
+| Developer profile | [Ali Alkarar on LinkedIn](https://www.linkedin.com/in/9gkc/) | Official professional profile of the CyKun developer. |
 
 ## A corrected academic Reader experience
 
@@ -35,11 +44,11 @@ SHA-256: 7ab58ecf38522a52fa41301b10d8ec9328ae0fd08688d267a7cd23f421009495
 
 The following screenshot is an authentic golden render of the corrected Reader home screen at a mobile viewport. It intentionally uses the application’s pending-data state, so the zero counts are **not** a representation of the live library catalogue.
 
-![CyKun Reader home](images/cykun-reader-home-v1.0.2.png)
+![CyKun Reader home](images/cykun-reader-home-v1.0.0.png)
 
 ## Installation and updates
 
-CyKun Reader is version **`1.0.2`** with Android version code **`9`**. It intentionally retains the same production package identity and signing certificate as preceding official production builds, so Android can update an official Reader installation directly.
+CyKun Reader is presented as the public starting version **`1.0.0`** with Android version code **`10`**. The higher internal code intentionally retains the same production package identity and signing certificate as preceding official production builds, so Android can update an official Reader installation directly.
 
 If Android reports that an older installation cannot be updated, it was signed with an earlier identity. In that specific one-time case, uninstall the old app and install the current official APK. Library materials remain remotely maintained by the owner and are not embedded in the app package.
 

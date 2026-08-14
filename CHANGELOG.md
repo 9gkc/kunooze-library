@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.0.0 — Public CyKun Community Release
+
+- Added an in-app **Community** destination to the Reader with the official CyS4Ever Telegram channel and Ali Alkarar’s LinkedIn developer profile.
+- Added the same official presence to Publisher Studio for the owner workflow.
+- Published the public product baseline as **CyKun v1.0.0**, while raising the Android Reader version code to `10` for safe updates from prior official packages.
+- Retained the approved shield artwork, application IDs, Firebase data contract, and production signing certificate.
+
 ## v1.0.2 — CyKun Product Rename
 
 - Renamed the student product to **CyKun**, meaning **Cyber Kunooze / سايبر الكنوز**, throughout the Reader interface, Android label, distribution package, and public documentation.
