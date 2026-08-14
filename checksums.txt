@@ -1,5 +1,0 @@
-# CyKun Reader v1.0.0 — Public Community Build 10
-df24f9196e2b7c31f42b798ad44a8abf649ad3906a0b379035d600d29fcc0b87  cykun-reader-v1.0.0.apk
-
-# Historical Kunooze Library Reader v1.0.0 — Redesign Build 7
-f6bb3d24e7247f22672b462e8904fd2d55772e9c8c79852e480649afafeb1a12  kunooze-library-reader-v1.0.0.apk
