@@ -1,2 +1,5 @@
-# Kunooze Library Reader v1.0.0 — Redesign Build 7
+# CyKun Reader v1.0.2 — Product Rename Build 9
+7ab58ecf38522a52fa41301b10d8ec9328ae0fd08688d267a7cd23f421009495  cykun-reader-v1.0.2.apk
+
+# Historical Kunooze Library Reader v1.0.0 — Redesign Build 7
 f6bb3d24e7247f22672b462e8904fd2d55772e9c8c79852e480649afafeb1a12  kunooze-library-reader-v1.0.0.apk

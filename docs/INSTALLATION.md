@@ -1,16 +1,16 @@
 # Installation Guide
 
-This guide is for students who want to install the **Kunooze Library** Reader. Download and install the Reader APK only; the owner publishing application is not intended for student devices or public distribution.
+This guide is for students who want to install the **CyKun** Reader. CyKun means **Cyber Kunooze / سايبر الكنوز**. Download and install the Reader APK only; the owner publishing application is not intended for student devices or public distribution.
 
-## Install or update Kunooze Library
+## Install or update CyKun
 
 | Step | Action |
 |---|---|
-| 1 | Download [Kunooze Library v1.0.1](https://github.com/9gkc/kunooze-library/releases/download/v1.0.1/kunooze-library-reader-v1.0.1.apk) from the official release. |
-| 2 | If an official Reader is already installed, open the new APK and choose **Update** when Android offers it. Version code `8` is newer than the prior official builds. |
+| 1 | Download [CyKun v1.0.2](https://github.com/9gkc/cykun/releases/download/v1.0.2/cykun-reader-v1.0.2.apk) from the official release. |
+| 2 | If an official Reader is already installed, open the new APK and choose **Update** when Android offers it. Version code `9` is newer than the prior official builds. |
 | 3 | If Android refuses the update because the installed app has a different signature, uninstall that older copy once, then install the official APK. |
 | 4 | If Android requests permission, allow only the trusted browser or file manager that downloaded the APK to install apps from that source. [1] |
-| 5 | Open **Kunooze Library**. Students do not need to create an account or sign in. |
+| 5 | Open **CyKun**. Students do not need to create an account or sign in. |
 
 ## Use the Reader
 
@@ -23,10 +23,10 @@ The Home tab can display owner-published announcements or temporary timetable en
 Compare the downloaded APK checksum with:
 
 ```text
-6ddf204d36eb7a2c9b73f2c226665df0ddb6bb1b0dab1ab42aa9eca8e3d138db
+7ab58ecf38522a52fa41301b10d8ec9328ae0fd08688d267a7cd23f421009495
 ```
 
-The APK is signed with Android APK Signature Schemes v1, v2, and v3 as applicable. Its complete package metadata and certificate fingerprint are listed in [VERIFICATION.md](VERIFICATION.md). Android explains the purpose of APK signing in its official documentation. [2]
+The APK is signed with Android APK Signature Schemes v2 and v3. Its complete package metadata and certificate fingerprint are listed in [VERIFICATION.md](VERIFICATION.md). Android explains the purpose of APK signing in its official documentation. [2]
 
 ## References
 

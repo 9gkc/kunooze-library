@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.2 — CyKun Product Rename
+
+- Renamed the student product to **CyKun**, meaning **Cyber Kunooze / سايبر الكنوز**, throughout the Reader interface, Android label, distribution package, and public documentation.
+- Kept the approved shield artwork unchanged.
+- Preserved the Android package identity and production signing certificate so students with an official prior installation can update directly.
+
 ## v1.0.0 — Redesign Build 7
 
 - Rebuilt the Arabic Reader visual experience around a new Kunooze Library identity, original mark, and high-contrast typography.

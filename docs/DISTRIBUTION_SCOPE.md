@@ -1,6 +1,6 @@
 # Public Distribution Scope
 
-This repository is the official public download location for the **Kunooze Library** student reader. It exists to provide one trusted APK release, clear installation instructions, current interface screenshots, and verification information.
+This repository is the official public download location for the **CyKun** student reader. CyKun means **Cyber Kunooze / سايبر الكنوز**. It exists to provide one trusted APK release, clear installation instructions, current interface screenshots, and verification information.
 
 ## Included Material
 
