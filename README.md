@@ -1,65 +1,60 @@
 # Kunooze Library
 
-> **The official Android reader for the Kunooze academic digital library.**
+> **The official Android Reader for the Kunooze academic digital library.**
 
-Kunooze Library is an Arabic, right-to-left Android application for students who access published academic cybersecurity material. Its academic path is deliberately simple: **Stage → Semester → Subject → Lecture**. Inside each subject, lectures are presented as a numbered sequence with clear previous and next navigation. Students can read text lessons in the application, open owner-approved PDF resources, view active announcements, and search the catalogue without creating an account.
+**Kunooze Library** is an Arabic, right-to-left application for students who access university cybersecurity material. The Reader presents one calm, coherent route through the academic structure: **Stage → Semester → Subject → Numbered lecture**. It is designed for studying, not for managing content: students can browse without creating an account, read published lessons, open owner-approved PDF resources, follow lectures in sequence, and view active announcements or timetable notices.
 
-## Official Download
+## Official download
 
 | Item | Link | Purpose |
 |---|---|---|
-| Latest Android APK | [Download Kunooze Library v1.0.0](https://github.com/9gkc/kunooze-library/releases/download/v1.0.0/kunooze-library-reader-v1.0.0.apk) | Install the student reader application. |
-| Release page | [Open the v1.0.0 release](https://github.com/9gkc/kunooze-library/releases/tag/v1.0.0) | Review the release asset and its verification information. |
-| Installation guide | [Read the installation guide](docs/INSTALLATION.md) | Follow the Android installation and update steps. |
-| Verification record | [Read the verification record](docs/VERIFICATION.md) | Compare the APK version, checksum, and signing details. |
+| Latest Reader APK | [Download Kunooze Library v1.0.0](https://github.com/9gkc/kunooze-library/releases/download/v1.0.0/kunooze-library-reader-v1.0.0.apk) | Install the signed student Reader. |
+| Release page | [Open the v1.0.0 release](https://github.com/9gkc/kunooze-library/releases/tag/v1.0.0) | Review the release asset and notes. |
+| Installation guide | [Read the guide](docs/INSTALLATION.md) | Install or update safely on Android. |
+| Verification record | [Verify the download](docs/VERIFICATION.md) | Compare version, signature, size, and checksum. |
 
-The official package is **`kunooze-library-reader-v1.0.0.apk`**. It is a signed production APK, not a debug or trial build. Its SHA-256 checksum is:
+The official package is **`kunooze-library-reader-v1.0.0.apk`**. It is a signed production APK, not a debug or trial build.
 
 ```text
-8126da885f5ca759f9fcf4615f7036b5c6e6c1ff422cf2d11058d157ddff432f
+SHA-256: f6bb3d24e7247f22672b462e8904fd2d55772e9c8c79852e480649afafeb1a12
 ```
 
-## Student Experience
+## A redesigned Reader experience
 
-| Capability | What it means for students |
+| Capability | Student benefit |
 |---|---|
-| Arabic RTL interface | The reader is designed for Arabic right-to-left reading. |
-| Academic navigation | Browse four stages, their semesters, subjects, and published materials. |
-| Ordered lectures | Follow subject material as a numbered lecture sequence with previous and next controls. |
-| Text lessons | Read published text lessons inside the application. |
-| Approved PDF resources | Open library-owner-approved Google Drive PDF links. |
-| Active notices | View temporary announcements and timetable entries while they are active. |
-| Search | Search by stage, semester, subject, or material title. |
-| No student account | Browse published material without registration or sign-in. |
+| New Arabic visual system | A focused dark academic workspace with high-contrast typography, a new original mark, and clear reading hierarchy. |
+| Home dashboard | See the academic route and current library totals at a glance. |
+| Clear academic path | Move from the four stages to semester, subject, and lecture without losing context. |
+| Ordered lecture flow | Read materials as numbered lectures and move to the previous or next lecture within the same subject. |
+| Text and PDF learning | Read written lessons in the app or open owner-approved PDF resources. |
+| Search and notices | Search published catalogue items and view active announcements or timetable entries. |
+| No student account | Browse published content without registration or sign-in. |
 
-## Screenshots
+## Interface preview
 
-The following authentic interface screenshots show the Arabic reader at a mobile-sized viewport. The app remains Arabic by design; the public documentation in this repository is English.
+The following screenshot is an authentic golden render of the redesigned Reader home screen at a mobile viewport. It intentionally uses the application’s pending-data state, so the zero counts are **not** a representation of the live library catalogue.
 
-| Home | Academic catalogue | Student guide |
-|---|---|---|
-| ![Kunooze Library home screen](images/reader-home.png) | ![Kunooze Library academic catalogue](images/reader-catalog.png) | ![Kunooze Library student guide](images/reader-guide.png) |
+![Kunooze Library redesigned Reader home](images/reader-home-redesign.png)
 
-> The visible academic labels and counts are illustrative interface data. The live catalogue is published and maintained by the library owner. See the [screenshot notes](docs/SCREENSHOT_NOTES.md) for the privacy and scope statement.
+## Installation and updates
 
-## Installation and Updates
+The redesigned Reader is version **`1.0.0`** with Android version code **`7`**. It uses the same production package identity and signing certificate as the immediately preceding official production build (code `6`), so Android can update that build directly.
 
-Android may require the student to allow installation from the browser or file manager that downloaded the APK. This permission should be enabled only for the trusted application used to download the official package. [1]
+If Android reports that an older installation cannot be updated, it was signed with an earlier identity. In that specific one-time case, uninstall the old app and install the current official APK. Library materials remain remotely maintained by the owner and are not embedded in the app package.
 
-This `v1.0.0` transition build has Android version code `6` and establishes the permanent production signing identity used for future updates. **Because Android signing identity changed, every student must uninstall any earlier Kunooze Library APK once before installing this build.** This one-time transition is required by Android. After installing this build, future official updates signed with the same production identity will install directly over it. Removing the application does not delete library content, which is maintained remotely by the library owner.
+## Public distribution scope
 
-## Public Distribution Scope
-
-This repository is a **public binary-distribution repository**. It contains only the student reader APK, documentation, screenshots, and release verification information.
+This is a **public binary-distribution repository** for students. It contains only the Reader APK, verification material, English documentation, and current Reader interface imagery.
 
 | Available here | Deliberately excluded |
 |---|---|
-| Reader APK release asset | Application source code |
-| English installation and verification documentation | Owner publisher APK |
-| Reader interface screenshots | Signing keys and Firebase configuration |
-| Public checksum and version record | Owner credentials, student records, and unpublished materials |
+| Signed Reader APK | Application source code |
+| Reader documentation and checksum | Publisher APK and owner workflow |
+| Reader screenshot | Signing keys and Firebase configuration |
+| Android installation guidance | Credentials, unpublished materials, and student records |
 
-Students should download only the Reader APK from the official release page and may share the unmodified official link with classmates. The owner publishing workflow remains private.
+Students should download only the Reader APK from the official release page and may share the unmodified official link with classmates.
 
 ## References
 

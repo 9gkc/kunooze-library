@@ -1,7 +1,7 @@
 # Screenshot Notes
 
-The images in `../images/` were newly rendered from the final **Kunooze Library v1.0.0 Reader** interface at a `430 × 930` mobile viewport. They show the Arabic right-to-left Reader home screen, academic catalogue, and student guide.
+The image in [`images/reader-home-redesign.png`](../images/reader-home-redesign.png) is an authentic golden render generated from the redesigned **Kunooze Library Reader** at a mobile viewport.
 
-The capture scenario uses the Reader's final interface structure and a safe illustrative academic catalogue so that the screen can visibly demonstrate four stages, semesters, subjects, materials, search, and an active notice. Live materials, announcements, stages, semesters, subjects, and PDFs are controlled by the library owner and can change after publication.
+It uses the Reader’s pending-data state to demonstrate the actual interface without embedding student records, unpublished material, or fabricated educational content. Consequently, the visible catalogue totals are zero and must not be interpreted as the live library catalogue.
 
-The screenshots contain no student records, private credentials, publisher functionality, owner controls, or unpublished resources. Every image in this public repository is a **Reader-only** image.
+The public repository contains Reader-only interface material. No publisher controls, owner credentials, Firebase configuration, private content, or personal data are shown.

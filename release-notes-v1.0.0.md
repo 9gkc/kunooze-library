@@ -1,13 +1,24 @@
-# Kunooze Library Reader v1.0.0
+# Kunooze Library v1.0.0 — Redesign Build 7
 
-This is the first student-facing release of **Kunooze Library Reader**. It organises university learning resources into four academic stages, each with a first and second semester. Students can follow the path **Stage → Semester → Subject → Material** in Arabic, open text lessons within the app, and access approved PDF resources through their permitted Google Drive viewer links.
+The official student Reader has been comprehensively redesigned while preserving the existing academic catalogue and publication model.
 
-The release also includes time-bound home-page announcements and timetable notices published by the library owner. Notices disappear automatically after their configured end time.
+## Highlights
 
-## Download and verification
+- A new original Kunooze Library mark and a unified Arabic visual identity.
+- A calmer, high-contrast Home dashboard and clearer academic navigation.
+- Consistent page transitions, refined cards, and a focused reading experience.
+- The established Stage → Semester → Subject → numbered lecture path remains intact.
+- Existing support remains for text lessons, owner-approved PDFs, catalogue search, notices, timetables, and lecture-to-lecture continuity.
+- No student account is required.
 
-Download `kunooze-library-reader-v1.0.0.apk` only from the GitHub release. The signed APK uses Android APK Signature Scheme v2 and has SHA-256 checksum:
+## Update
 
-`25149dba1186c3d17dacd3961544eed47de15e07b6ba02447a83f51e8ac6fed6`
+This is version `1.0.0`, Android version code `7`. Devices on the official production Build 6 can update directly. If Android rejects an older installation due to a different signing identity, uninstall that old copy once and install this official APK.
 
-Students do not need an account to browse published academic content. The owner-only publisher application and all application source code are intentionally excluded from this public repository.
+## Verification
+
+```text
+SHA-256: f6bb3d24e7247f22672b462e8904fd2d55772e9c8c79852e480649afafeb1a12
+```
+
+See the repository [verification record](docs/VERIFICATION.md) for package and certificate details.
