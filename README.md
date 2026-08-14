@@ -1,70 +1,66 @@
-# CyKun
+# CyKun Reader
 
 > **The official Android Reader for CyKun — Cyber Kunooze / سايبر الكنوز.**
 
-**CyKun** is an Arabic, right-to-left application for students who access university cybersecurity material. The name means **Cyber Kunooze / سايبر الكنوز**. The Reader presents one calm, coherent route through the academic structure: **Stage → Semester → Subject → Numbered lecture**. It is designed for studying, not for managing content: students can browse without creating an account, read published lessons, open owner-approved PDF resources, follow lectures in sequence, and view active announcements or timetable notices.
+CyKun is an Arabic, right-to-left student reader for university cybersecurity material. It gives students one calm route through the academic library: **Stage → Semester → Subject → Numbered lecture**.
 
-## Official download
+The public repository contains the **single official CyKun v1.0.0 Reader release** and the documentation needed to verify and install it. It does not contain source code, publisher credentials, signing keys, Firebase configuration, unpublished materials, or student records.
 
-| Item | Link | Purpose |
-|---|---|---|
-| Latest Reader APK | [Download CyKun v1.0.0](https://github.com/9gkc/cykun/releases/download/v1.0.0/cykun-reader-v1.0.0.apk) | Install the signed student Reader. |
-| Release page | [Open the v1.0.0 CyKun release](https://github.com/9gkc/cykun/releases/tag/v1.0.0) | Review the release asset and notes. |
-| Installation guide | [Read the guide](docs/INSTALLATION.md) | Install or update safely on Android. |
-| Verification record | [Verify the download](docs/VERIFICATION.md) | Compare version, signature, size, and checksum. |
+## Download the only release
 
-The official package is **`cykun-reader-v1.0.0.apk`**. It is a signed production APK, not a debug or trial build.
+| Item | Link |
+| :--- | :--- |
+| **CyKun Reader v1.0.0 APK** | [Download the official APK](https://github.com/9gkc/cykun/releases/download/v1.0.0/cykun-reader-v1.0.0.apk) |
+| **Release page** | [Open CyKun v1.0.0](https://github.com/9gkc/cykun/releases/tag/v1.0.0) |
+| **Installation guide** | [Install or update CyKun](docs/INSTALLATION.md) |
+| **Verification record** | [Verify the APK](docs/VERIFICATION.md) |
+
+The official package is `cykun-reader-v1.0.0.apk`. Its SHA-256 fingerprint is:
 
 ```text
-SHA-256: df24f9196e2b7c31f42b798ad44a8abf649ad3906a0b379035d600d29fcc0b87
+df24f9196e2b7c31f42b798ad44a8abf649ad3906a0b379035d600d29fcc0b87
 ```
 
-## Official community and developer
+## A first look at CyKun
 
-CyKun includes an in-app **Community** space so students can reach the official project channels without relying on copied links.
+These are interface previews from the CyKun Reader design. They are included to help students understand the experience before installation. The counters shown in the previews may be empty when no library material is currently published; they are not a claim about the live catalogue.
 
-| Official presence | Link | Purpose |
-|---|---|---|
-| CyS4Ever community | [t.me/cys4ever](https://t.me/cys4ever) | Official Telegram channel for CyKun community updates and announcements. |
-| Developer profile | [Ali Alkarar on LinkedIn](https://www.linkedin.com/in/9gkc/) | Official professional profile of the CyKun developer. |
+<p align="center">
+  <img src="images/cykun-home-community.png" alt="CyKun home screen with Community navigation" width="260">
+  <img src="images/cykun-home-library.png" alt="CyKun library home screen in Arabic" width="260">
+  <img src="images/cykun-home-navigation.png" alt="CyKun academic navigation home screen" width="260">
+</p>
 
-## A corrected academic Reader experience
+## What students can do
 
-| Capability | Student benefit |
-|---|---|
-| Approved shield identity | The established shield is retained unchanged for Android and the Arabic interface. |
-| University-first structure | Start directly with one of the four stages; every stage contains exactly its first and second semester. |
-| Clear academic path | Move through **Stage → First/Second Semester → Subject → Numbered Lecture** with no extra academic level. |
-| Deterministic lecture flow | Lectures follow their publisher-assigned number; older materials with a numbered title have a stable fallback order. |
-| Text and PDF learning | Read written lessons in the app or open owner-approved PDF resources. |
-| Search and notices | Search published catalogue items and view active announcements or timetable entries. |
-| No student account | Browse published content without registration or sign-in. |
+CyKun is designed for reading and navigating approved material, not for managing the publisher’s content. Students can browse academic stages, select a semester, open a subject, follow numbered lectures, read published text lessons, open owner-approved PDF resources, and view active announcements or timetable notices.
 
-## Interface preview
+The app does not require a student account for browsing published material. The Community destination links to the official [CyS4Ever Telegram channel](https://t.me/cys4ever) and [Ali Alkarar on LinkedIn](https://www.linkedin.com/in/9gkc/).
 
-The following screenshot is an authentic golden render of the corrected Reader home screen at a mobile viewport. It intentionally uses the application’s pending-data state, so the zero counts are **not** a representation of the live library catalogue.
+## Install safely
 
-![CyKun Reader home](images/cykun-reader-home-v1.0.0.png)
+1. Download the APK only from the official [v1.0.0 release page](https://github.com/9gkc/cykun/releases/tag/v1.0.0).
+2. Compare its SHA-256 value with the fingerprint in [VERIFICATION.md](docs/VERIFICATION.md).
+3. Install the APK on Android and open **CyKun**.
+4. If Android requests permission to install from the download source, allow only the trusted browser or file manager you used.
 
-## Installation and updates
+For complete steps, read the [installation guide](docs/INSTALLATION.md).
 
-CyKun Reader is presented as the public starting version **`1.0.0`** with Android version code **`10`**. The higher internal code intentionally retains the same production package identity and signing certificate as preceding official production builds, so Android can update an official Reader installation directly.
+## Public distribution boundary
 
-If Android reports that an older installation cannot be updated, it was signed with an earlier identity. In that specific one-time case, uninstall the old app and install the current official APK. Library materials remain remotely maintained by the owner and are not embedded in the app package.
+| Included | Not included |
+| :--- | :--- |
+| One signed Reader APK: v1.0.0 | Publisher application |
+| Installation and verification documentation | Source code |
+| Curated interface previews | Signing keys and credentials |
+| Public community links | Firebase configuration and student records |
 
-## Public distribution scope
+> Security-sensitive material must never be committed to this repository. If you discover a security issue, contact the maintainer privately through [Ali Alkarar’s LinkedIn](https://www.linkedin.com/in/9gkc/) rather than publishing credentials or private data in an issue.
 
-This is a **public binary-distribution repository** for students. It contains only the Reader APK, verification material, English documentation, and current Reader interface imagery.
+## Maintainer
 
-| Available here | Deliberately excluded |
-|---|---|
-| Signed Reader APK | Application source code |
-| Reader documentation and checksum | Publisher APK and owner workflow |
-| Reader screenshot | Signing keys and Firebase configuration |
-| Android installation guidance | Credentials, unpublished materials, and student records |
+**Ali Alkarar** · [@9gkc](https://github.com/9gkc) · [LinkedIn](https://www.linkedin.com/in/9gkc/)
 
-Students should download only the Reader APK from the official release page and may share the unmodified official link with classmates.
+## License and scope
 
-## References
-
-[1] [Android Help — Download and install Android apps](https://support.google.com/android/answer/9450271)
+This repository is a public distribution and documentation surface for the CyKun Reader. The APK is provided for students through the official release page. Redistribution must preserve the original file and verification information.
