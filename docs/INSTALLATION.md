@@ -7,13 +7,13 @@ This guide is for students installing the official **CyKun Reader** on Android. 
 | Requirement | Details |
 |---|---|
 | Device | An Android device supported by the Reader release. |
-| Download source | The [official CyKun release page](https://github.com/9gkc/cykun/releases/tag/v1.0.0). |
-| File | `cykun-reader-v1.0.0.apk`. |
+| Download source | The [official CyKun production-refresh release page](https://github.com/9gkc/cykun/releases/tag/cykun-1.0.0-production-20260815). |
+| File | `CyKun-Reader-v1.0.0-production.apk`. |
 | Integrity check | Optional but recommended: compare the SHA-256 value in [Verification](VERIFICATION.md). |
 
 ## Install in three steps
 
-1. Download `cykun-reader-v1.0.0.apk` from the official release page.
+1. Download `CyKun-Reader-v1.0.0-production.apk` from the official release page.
 2. Open the downloaded file. If Android asks for permission to install from that download source, review the prompt and allow the installation only for the trusted source you used.
 3. Open **CyKun**, then use the path **Stage → Semester → Subject → Numbered Lecture** to reach published material.
 
@@ -21,7 +21,7 @@ Android installation prompts can differ by device manufacturer and Android versi
 
 ## Update an existing official installation
 
-CyKun is displayed as version `1.0.0` and uses Android version code `10`. The version code is higher than earlier official production builds, so Android can update an official installation in place when the package identity and signing certificate match.
+CyKun is displayed as version `1.0.0` and uses Android version code `11`. The version code is higher than the preceding official public build, so Android can update an official installation in place when the package identity and signing certificate match.
 
 When the device shows **Update**, choose that option. If it instead rejects the update, do not immediately remove the existing app. First confirm that the currently installed copy was obtained from an official CyKun release. A mismatched signing identity is a different installation, not an update candidate.[2]
 

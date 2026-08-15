@@ -1,2 +1,2 @@
-# CyKun Reader v1.0.0 — Android version code 10
-df24f9196e2b7c31f42b798ad44a8abf649ad3906a0b379035d600d29fcc0b87  cykun-reader-v1.0.0.apk
+# CyKun Reader v1.0.0 Production Refresh — Android version code 11
+a99d0165c3d234b428abd2dee47cf6686355ef41f24622464f561d9ad39fbfc6  CyKun-Reader-v1.0.0-production.apk

@@ -7,7 +7,7 @@
 <p align="center"><strong>Cyber Kunooze for university cybersecurity students.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/9gkc/cykun/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/release-v1.0.0-56D6F0?style=for-the-badge" alt="Current release v1.0.0" /></a>
+  <a href="https://github.com/9gkc/cykun/releases/tag/cykun-1.0.0-production-20260815"><img src="https://img.shields.io/badge/release-v1.0.0-56D6F0?style=for-the-badge" alt="Current release v1.0.0" /></a>
   <img src="https://img.shields.io/badge/platform-Android-1A213B?style=for-the-badge" alt="Android" />
   <img src="https://img.shields.io/badge/interface-Arabic%20RTL-8B7BFF?style=for-the-badge" alt="Arabic right-to-left interface" />
   <a href="https://t.me/cys4ever"><img src="https://img.shields.io/badge/community-CyS4Ever-1A213B?style=for-the-badge" alt="CyS4Ever community" /></a>
@@ -21,13 +21,13 @@
 
 | Resource | What it is | Link |
 |---|---|---|
-| Reader APK | Signed production APK for students | [Download CyKun v1.0.0](https://github.com/9gkc/cykun/releases/download/v1.0.0/cykun-reader-v1.0.0.apk) |
-| Release page | Official asset, notes, and checksum | [Open v1.0.0](https://github.com/9gkc/cykun/releases/tag/v1.0.0) |
+| Reader APK | Signed production APK for students | [Download CyKun v1.0.0](https://github.com/9gkc/cykun/releases/download/cykun-1.0.0-production-20260815/CyKun-Reader-v1.0.0-production.apk) |
+| Release page | Official asset, notes, and checksum | [Open the production refresh](https://github.com/9gkc/cykun/releases/tag/cykun-1.0.0-production-20260815) |
 | Installation guide | Safe install and update steps | [Read the guide](docs/INSTALLATION.md) |
 | Verification record | Package identity and SHA-256 value | [Verify the APK](docs/VERIFICATION.md) |
 
-**Current asset:** `cykun-reader-v1.0.0.apk`
-**SHA-256:** `df24f9196e2b7c31f42b798ad44a8abf649ad3906a0b379035d600d29fcc0b87`
+**Current asset:** `CyKun-Reader-v1.0.0-production.apk`
+**SHA-256:** `a99d0165c3d234b428abd2dee47cf6686355ef41f24622464f561d9ad39fbfc6`
 
 ## A focused academic route
 
@@ -71,7 +71,7 @@ CyKun will never ask for a password, verification code, or sensitive account inf
 
 ## Versioning and updates
 
-The public launch is displayed as **v1.0.0**. Its Android version code is **10**, which is higher than previous official production builds. Android uses that internal code, together with the same package identity and production certificate, to offer an in-place update when an official earlier Reader installation is present.
+The public launch remains displayed as **v1.0.0**. Its Android version code is **11**, which is higher than the preceding official public build. Android uses that internal code, together with the same package identity and production certificate, to offer an in-place update when an official earlier Reader installation is present.
 
 If Android does not offer an update, verify that the existing installation came from an official CyKun release before removing it. Published study material is managed remotely by the owner and is not bundled into the APK.
 
@@ -86,7 +86,7 @@ This repository is a public distribution channel for the student Reader only.
 | Authentic Reader screenshots | Signing keys, Firebase files, credentials, and unpublished content |
 | English student-facing documentation | Student records or private academic material |
 
-For the full distribution policy, read [Distribution Scope](docs/DISTRIBUTION_SCOPE.md). For release changes, read [Release Notes](docs/RELEASE_NOTES_v1.0.0.md).
+For the full distribution policy, read [Distribution Scope](docs/DISTRIBUTION_SCOPE.md). For this update, read the [Production Refresh release notes](docs/RELEASE_NOTES_20260815.md). The earlier [public-release notes](docs/RELEASE_NOTES_v1.0.0.md) remain available for history.
 
 ## References
 
