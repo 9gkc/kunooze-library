@@ -21,7 +21,7 @@ Android installation prompts can differ by device manufacturer and Android versi
 
 ## Update an existing official installation
 
-CyKun is displayed as version `1.0.0` and uses Android version code `11`. The version code is higher than the preceding official public build, so Android can update an official installation in place when the package identity and signing certificate match.
+CyKun is displayed as version `1.0.0` and uses Android version code `12`. The version code is higher than the affected production package, so Android can update an official installation in place when the package identity and signing certificate match. This hotfix restores the Reader's connection to the existing remote library; it does not remove or recreate academic content.
 
 When the device shows **Update**, choose that option. If it instead rejects the update, do not immediately remove the existing app. First confirm that the currently installed copy was obtained from an official CyKun release. A mismatched signing identity is a different installation, not an update candidate.[2]
 

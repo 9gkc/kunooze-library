@@ -1,14 +1,14 @@
-# CyKun Reader v1.0.0 — Production Refresh
+# CyKun Reader v1.0.0 — Production Hotfix
 
 ## Public Reader update
 
-This is the signed Android Reader update that promotes the owner-approved CyKun Beta improvements to production. The public version name stays at `1.0.0`; its Android version code is raised to `11` so it can update the preceding official public Reader installation in place.
+This is the signed Android Reader update that includes the owner-approved CyKun Beta improvements and corrects production connectivity. The public version name stays at `1.0.0`; its Android version code is raised to `12` so it can update the affected official Reader installation in place. The existing academic library remains in Firebase and was not deleted or recreated.
 
 | Release item | Details |
 |---|---|
 | APK | `CyKun-Reader-v1.0.0-production.apk` |
 | User-visible version | `1.0.0` |
-| Android version code | `11` |
+| Android version code | `12` |
 | Download | [Official release asset](https://github.com/9gkc/cykun/releases/download/cykun-1.0.0-production-20260815/CyKun-Reader-v1.0.0-production.apk) |
 | Verification | [Verification record](VERIFICATION.md) |
 
@@ -28,7 +28,7 @@ This is the signed Android Reader update that promotes the owner-approved CyKun 
 |---|---|
 | Package identifier | `com.alkarara.kunooze.library_app` |
 | File size | `63,108,398 bytes` |
-| SHA-256 | `a99d0165c3d234b428abd2dee47cf6686355ef41f24622464f561d9ad39fbfc6` |
+| SHA-256 | `e61b3353703b154adcacd658d3fc38f175bf2bf5b21b85788260e74f1ecd16a8` |
 | Signing schemes checked | v2 and v3 |
 
 Android verifies the package signature during installation. The release also passed Android APK signature verification before publication.[1]

@@ -22,12 +22,12 @@
 | Resource | What it is | Link |
 |---|---|---|
 | Reader APK | Signed production APK for students | [Download CyKun v1.0.0](https://github.com/9gkc/cykun/releases/download/cykun-1.0.0-production-20260815/CyKun-Reader-v1.0.0-production.apk) |
-| Release page | Official asset, notes, and checksum | [Open the production refresh](https://github.com/9gkc/cykun/releases/tag/cykun-1.0.0-production-20260815) |
+| Release page | Official asset, notes, and checksum | [Open the production hotfix](https://github.com/9gkc/cykun/releases/tag/cykun-1.0.0-production-20260815) |
 | Installation guide | Safe install and update steps | [Read the guide](docs/INSTALLATION.md) |
 | Verification record | Package identity and SHA-256 value | [Verify the APK](docs/VERIFICATION.md) |
 
 **Current asset:** `CyKun-Reader-v1.0.0-production.apk`
-**SHA-256:** `a99d0165c3d234b428abd2dee47cf6686355ef41f24622464f561d9ad39fbfc6`
+**SHA-256:** `e61b3353703b154adcacd658d3fc38f175bf2bf5b21b85788260e74f1ecd16a8`
 
 ## A focused academic route
 
@@ -71,7 +71,7 @@ CyKun will never ask for a password, verification code, or sensitive account inf
 
 ## Versioning and updates
 
-The public launch remains displayed as **v1.0.0**. Its Android version code is **11**, which is higher than the preceding official public build. Android uses that internal code, together with the same package identity and production certificate, to offer an in-place update when an official earlier Reader installation is present.
+The public launch remains displayed as **v1.0.0**. Its Android version code is **12**, which is higher than the affected production package and allows Android to install this signed connectivity hotfix in place. The existing academic library remains stored remotely in Firebase; it is not recreated or deleted by an application update.
 
 If Android does not offer an update, verify that the existing installation came from an official CyKun release before removing it. Published study material is managed remotely by the owner and is not bundled into the APK.
 
@@ -86,7 +86,7 @@ This repository is a public distribution channel for the student Reader only.
 | Authentic Reader screenshots | Signing keys, Firebase files, credentials, and unpublished content |
 | English student-facing documentation | Student records or private academic material |
 
-For the full distribution policy, read [Distribution Scope](docs/DISTRIBUTION_SCOPE.md). For this update, read the [Production Refresh release notes](docs/RELEASE_NOTES_20260815.md). The earlier [public-release notes](docs/RELEASE_NOTES_v1.0.0.md) remain available for history.
+For the full distribution policy, read [Distribution Scope](docs/DISTRIBUTION_SCOPE.md). For this update, read the [Production Hotfix release notes](docs/RELEASE_NOTES_20260815.md). The earlier [public-release notes](docs/RELEASE_NOTES_v1.0.0.md) remain available for history.
 
 ## References
 
