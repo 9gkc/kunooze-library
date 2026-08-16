@@ -1,2 +1,2 @@
-# CyKun Reader v1.0.0 Production Hotfix — Android version code 12
-e61b3353703b154adcacd658d3fc38f175bf2bf5b21b85788260e74f1ecd16a8  CyKun-Reader-v1.0.0-production.apk
+# CyKun Reader v1.0.0 Production — 2026-08-16
+be75ef98f5f1b12361cb2c36bebb2e44de809b3276b8763952480ad193f12cd2  CyKun-Reader-v1.0.0-production.apk
