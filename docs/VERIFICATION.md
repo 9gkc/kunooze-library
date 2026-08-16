@@ -1,15 +1,17 @@
-# Reader Release Verification
+# Verify a CyKun Reader Download
 
-- Application: CyKun Reader
-- Version: 1.0.1+13
-- Artifact: `downloads/CyKun-Reader-1.0.1+13.apk`
-- SHA-256: `e05c63d473fc656cc3c5a42dfaf58892a574276e6cc0395b9bc24051953eb944`
-- Signature: Android APK Signature Scheme v2 and v3 verified
-- Scope: Reader APK and student-facing documentation only
+Every official release lists the APK file name and its SHA-256 checksum. Download only from the [official CyKun Releases page](https://github.com/9gkc/cykun/releases) when a verified Reader build is listed, then compare the checksum shown on that release page with the file you downloaded.
 
-Verify locally with:
+On a computer with a SHA-256 utility, run:
 
-```bash
-sha256sum downloads/CyKun-Reader-1.0.1+13.apk
-apksigner verify --verbose downloads/CyKun-Reader-1.0.1+13.apk
+```text
+sha256sum <downloaded-apk-file>
 ```
+
+The output must exactly match the checksum published beside the same APK asset. If it does not match, delete the download and obtain it again from the official release page.
+
+Android also verifies the app signature during installation and updates.[1]
+
+## Reference
+
+[1] [Android Open Source Project — APK signing](https://source.android.com/docs/security/features/apksigning)
