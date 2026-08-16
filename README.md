@@ -69,8 +69,3 @@ For updates, download only from the official Releases page. Android can update a
 ## Public repository scope
 
 This repository is intentionally limited to the **CyKun Reader** distribution experience: public release links, student documentation, and public showcase images. It does not contain management tools, unpublished academic material, credentials, configuration records, signing material, or implementation files.
-
-## References
-
-[1] [Android Help — Download and install Android apps](https://support.google.com/android/answer/9450271)  
-[2] [Android Open Source Project — APK signing](https://source.android.com/docs/security/features/apksigning)
